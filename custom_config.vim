@@ -19,7 +19,7 @@ set shiftwidth=2
 map <Leader>bg :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 noremap <Leader>a :Ack --ignore-dir log --ignore-dir tmp 
 noremap <Leader>A :Ack --ignore-dir log --ignore-dir tmp --ignore node_modules 
-noremap <Leader>l :TagbarToggle<CR>
+"noremap <Leader>l :TagbarToggle<CR>
 noremap <Leader>; :NERDTreeToggle<CR>
 noremap <Leader>c :!cat % \| pbcopy<CR>
 noremap <Leader>g :!align.pl -ss<CR>dd

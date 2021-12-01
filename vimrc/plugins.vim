@@ -62,6 +62,7 @@ map <leader>dup :diffupdate<cr>
 "------------------------------------------------------------------------------
 " Coc
 "------------------------------------------------------------------------------
+let g:coc_config_home = $HOME.'/.vim-js'
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
