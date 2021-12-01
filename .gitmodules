@@ -1,0 +1,39 @@
+[submodule "bundles/coc.nvim"]
+	path = bundles/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule "bundles/vim-jsx-pretty"]
+	path = bundles/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty
+[submodule "bundles/yats.vim"]
+	path = bundles/yats.vim
+	url = https://github.com/HerringtonDarkholme/yats.vim
+[submodule "bundles/ag.vim"]
+	path = bundles/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "bundles/vim-solidity"]
+	path = bundles/vim-solidity
+	url = https://github.com/thesis/vim-solidity
+[submodule "bundles/vim-markdown"]
+	path = bundles/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundles/neokmake"]
+	path = bundles/neokmake
+	url = https://github.com/neomake/neomake
+[submodule "bundles/ctrlp.vim"]
+	path = bundles/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "bundles/nerdcommenter"]
+	path = bundles/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundles/nerdtree"]
+	path = bundles/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundles/vim-colors-solarized"]
+	path = bundles/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "bundles/vim-fugitive"]
+	path = bundles/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundles/bufexplorer"]
+	path = bundles/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer
