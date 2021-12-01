@@ -37,3 +37,6 @@
 [submodule "bundles/bufexplorer"]
 	path = bundles/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer
+[submodule "bundles/vim-jsonc"]
+	path = bundles/vim-jsonc
+	url = https://github.com/kevinoid/vim-jsonc

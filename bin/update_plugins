@@ -9,6 +9,7 @@ from os import path
 
 
 #--- Globals ----------------------------------------------
+# :r!git submodule foreach 'git remote get-url origin' |grep -v Enter| sed -E 's/(.*\/)(.*)(.git)?/\2 \1\2\3/'
 PLUGINS = """
 ag.vim https://github.com/rking/ag.vim
 bufexplorer https://github.com/jlanzarotta/bufexplorer
@@ -19,6 +20,7 @@ nerdcommenter.git https://github.com/scrooloose/nerdcommenter.git
 nerdtree.git https://github.com/scrooloose/nerdtree.git
 vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 vim-fugitive.git https://github.com/tpope/vim-fugitive.git
+vim-jsonc https://github.com/kevinoid/vim-jsonc
 vim-jsx-pretty https://github.com/MaxMEllon/vim-jsx-pretty
 vim-markdown.git https://github.com/tpope/vim-markdown.git
 vim-solidity https://github.com/thesis/vim-solidity
