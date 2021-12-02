@@ -40,3 +40,9 @@
 [submodule "bundles/vim-jsonc"]
 	path = bundles/vim-jsonc
 	url = https://github.com/kevinoid/vim-jsonc
+[submodule "bundles/typescript-vim"]
+	path = bundles/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
+[submodule "bundles/vim-javascript"]
+	path = bundles/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
