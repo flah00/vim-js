@@ -1,9 +1,6 @@
 [submodule "bundles/coc.nvim"]
 	path = bundles/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
-[submodule "bundles/vim-jsx-pretty"]
-	path = bundles/vim-jsx-pretty
-	url = https://github.com/MaxMEllon/vim-jsx-pretty
 [submodule "bundles/yats.vim"]
 	path = bundles/yats.vim
 	url = https://github.com/HerringtonDarkholme/yats.vim
