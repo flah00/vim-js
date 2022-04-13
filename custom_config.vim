@@ -17,8 +17,8 @@ set tabstop=2
 set shiftwidth=2
 
 map <Leader>bg :let &background = ( &background == "dark"? "light" : "dark" )<CR>
-noremap <Leader>a :Ack --ignore-dir log --ignore-dir tmp 
-noremap <Leader>A :Ack --ignore-dir log --ignore-dir tmp --ignore node_modules 
+noremap <Leader>a :Ag --ignore-dir log --ignore-dir tmp 
+noremap <Leader>A :Ag --ignore-dir log --ignore-dir tmp --ignore node_modules 
 "noremap <Leader>l :TagbarToggle<CR>
 noremap <Leader>; :NERDTreeToggle<CR>
 noremap <Leader>c :!cat % \| pbcopy<CR>
@@ -40,6 +40,8 @@ if has("autocmd")
   au FileType help nnoremap <buffer> <bs> <c-T>|   " Backspace to go back
 
   au FileType typescript,jenkinsfile,groovy,ruby,haml,sass,html,css,coffee,dockerfile,javascript,json,java,sh,bash,sql set expandtab
+  au FileType typescript set tabstop=4  
+  au FileType typescript set shiftwidth=4
   au FileType json noremap <leader>j :%!python -m json.tool<cr>:%s/    /  /g<cr>
 
 endif
