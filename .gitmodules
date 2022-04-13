@@ -43,3 +43,6 @@
 [submodule "bundles/vim-javascript"]
 	path = bundles/vim-javascript
 	url = https://github.com/pangloss/vim-javascript
+[submodule "bundles/vim-jsx-improve"]
+	path = bundles/vim-jsx-improve
+	url = https://github.com/neoclide/vim-jsx-improve
